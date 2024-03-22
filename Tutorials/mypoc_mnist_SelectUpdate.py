@@ -41,7 +41,7 @@ args.batch_size = 128
 args.epochs = 5
 
 args.preprocess = False
-args.seed = 100
+args.seed = int(sys.argv[1])
 
 args.alg = "poc"
 
